@@ -6,6 +6,7 @@ module.exports = withTypescript(
     cssModules: true,
     cssLoaderOptions: {
       camelCase: true,
-    }
-  })
+    },
+    target: 'serverless',
+  }),
 );
