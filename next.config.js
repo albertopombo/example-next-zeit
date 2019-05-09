@@ -7,6 +7,6 @@ module.exports = withTypescript(
     cssLoaderOptions: {
       camelCase: true,
     },
-    target: 'serverless',
+    target: 'server',
   }),
 );
